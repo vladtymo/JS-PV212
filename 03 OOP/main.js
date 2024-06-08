@@ -132,7 +132,7 @@ class Monitor extends Product {
     show() {
         super.show(); // base method
         console.log(`Screen: ${this.resolution.w}x${this.resolution.h}, ${this.type}`);
-        //document.write(`<p>Monitor: ${this.name} - ${this.price}$</p>`);
+        document.write(`<p>Monitor: ${this.name} - ${this.price}$</p>`);
     }
 
     // add new methods
