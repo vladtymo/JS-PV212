@@ -15,7 +15,7 @@ li {
     transition: .2s;
 }
 
-li.important {
+.important {
     color: darkred;
     font-weight: bold;
 }
@@ -34,4 +34,10 @@ li.muted {
     font-weight: bold;
 }
 
-ul.my-list li.important {}
+.large {
+    font-size: 22px;
+}
+
+.mute {
+    color: gray;
+}
